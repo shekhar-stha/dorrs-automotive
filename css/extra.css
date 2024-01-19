@@ -15106,7 +15106,7 @@ section {
 .sub-header-center::after {
     position: absolute;
     content: "";
-    background-color: var(--primary);
+    background-color: var(--secondary);
     width: 5rem;
     height: 3px;
     left: 50%;

@@ -626,27 +626,24 @@ $('.services-row').slick({
 });
 
 
-
-// $('.testimonials-slider').slick({
-//   vertical: true,
-//   slidesToShow: 2,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   arrows: false,
-//   autoplaySpeed: 3000,
-//   prevArrow: '<i class="fa-solid fa-chevron-left left-arrow"></i>',
-//   nextArrow: '<i class="fa-solid fa-chevron-right right-arrow"></i>',
-//   dots: true,
-//   responsive: [
-//     {
-//       breakpoint: 576,
-//       settings: {
-//         dots: false,
-//       }
-//     }
-//   ]
-// });
-
+$('.testimonials-slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 2000,
+  prevArrow: '<i class="fa-solid fa-chevron-left left-arrow"></i>',
+  nextArrow: '<i class="fa-solid fa-chevron-right right-arrow"></i>',
+  dots: true,
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        dots: false,
+      }
+    }
+  ]
+});
 
 window.addEventListener('load', function () {
   if (window.innerWidth > 992) {

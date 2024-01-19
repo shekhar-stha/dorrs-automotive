@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Color Set */
 :root {
-  --primary: #125e12;
+  --primary: rgb(18, 94, 18);
   --secondary: #e0b107;
   --warning: rgb(212, 36, 4);
   --success: rgb(70, 178, 18);
@@ -77,7 +77,7 @@
   --light-section-text: var(--dark);
   --light-section-header-color: var(--dark);
   --light-section-sub-header-color: var(--dark);
-  --light-section-sub-header-border-color: var(--primary);
+  --light-section-sub-header-border-color: var(--secondary);
   --light-section-primary-button: var(--primary);
   --light-section-primary-button-text: var(--white);
   --light-section-secondary-button: transparent;
@@ -113,7 +113,7 @@
   --footer-section-icon-color: var(--white);
 
   /* Primary Overlay Section */
-  --primary-overlay-bg-color: rgba(31, 25, 25, 0.9);
+  --primary-overlay-bg-color: rgba(21, 24, 0, 0.9);
   --primary-overlay-header-color: var(--white);
   --primary-overlay-sub-header-color: var(--white);
   --primary-overlay-sub-header-border-color: var(--primary);
@@ -328,14 +328,16 @@ nav {
   /* background: rgb(224,177,7);
   background: linear-gradient(180deg, rgba(224,177,7,1) 0%, rgba(224,177,7,1) 10%, rgba(18,94,18,1) 100%, rgba(18,94,18,1) 100%); */
 
-  background: rgb(224, 177, 7);
+  /* background: rgb(224, 177, 7);
   background: linear-gradient(
     180deg,
     rgba(224, 177, 7, 1) 0%,
     rgba(224, 177, 7, 1) 10%,
     rgba(18, 94, 18, 1) 73%,
     rgba(18, 94, 18, 1) 100%
-  );
+  ); */
+
+  background-color: var(--primary);
 }
 
 @media (max-width: 1200px) {
