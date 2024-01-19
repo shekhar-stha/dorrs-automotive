@@ -1127,8 +1127,24 @@ nav .navbar-nav .nav-link:hover {
   overflow: hidden;
   background-color: #ffffff;
   border-radius: 12px;
+  position: relative;
 }
-
+.events .events-grid .event .icon-div{
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--secondary);
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 9px;
+  right: 9px;
+  cursor: pointer;
+}
+.events .events-grid .event .icon-div i{
+  color: var(--white);
+}
 .events .events-grid .event  h5{
   font-size: 22px;
   font-weight: 600;
@@ -1141,6 +1157,13 @@ nav .navbar-nav .nav-link:hover {
   width: 100%;
   min-height: 13rem;
   object-fit: cover;
+  height: 208px;
+}
+
+@media (max-width: 768px){
+  .events .events-grid .event .img-div img {
+    height: auto;
+  }
 }
 .events .events-grid .event .info-div {
   padding: 0.5rem 0.9rem;
