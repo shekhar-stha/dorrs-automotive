@@ -59,6 +59,11 @@
   color: var(--upper-nav-icon-color);
 }
 
+.before-hero-pop{
+  background: rgb(177,141,9);
+background: radial-gradient(circle, rgba(177,141,9,1) 0%, rgba(176,145,35,1) 10%, rgba(186,152,28,1) 73%, rgba(207,172,48,1) 100%);
+}
+
 /* Navbar */
 nav {
   z-index: 2;

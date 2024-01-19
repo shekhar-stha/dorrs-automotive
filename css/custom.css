@@ -340,7 +340,7 @@ nav {
   /* background-color: var(--primary); */
   background: rgb(9, 84, 9);
   background: linear-gradient(
-    180deg,
+    0deg,
     rgba(9, 84, 9, 1) 0%,
     rgba(13, 75, 13, 1) 10%,
     rgba(14, 93, 14, 1) 73%,
